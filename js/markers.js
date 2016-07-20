@@ -32,28 +32,37 @@ var Radagast = L.icon({iconUrl: 'img/marker/Istari.png',iconSize: [21, 21]})
 // Define the markers
 var markers_Gondor = [
 
-[-31.428663117358596,-114.697265625,Gondor,"<b>Lover's Hill</b><br>- House: Lonmouth<br>- Levies: 500"]]
+[19.31114,22.23633,Gondor,"<b>Dol Amroth</b>"],
+[24.68695,25.66406,Gondor,"<b>Glanhir</b>"],
+[38.82259,25.92773,Gondor,"<b>Erech</b>"],
+[35.03,34.62891,Gondor,"<b>Calembel</b>"],
+[32.02671,39.11133,Gondor,"<b>Ethring</b>"],
+[19.06212,41.13281,Gondor,"<b>Linhir</b>"],
+[25.87899,52.11914,Gondor,"<b>Minas Brethil</b>"],
+[19.06212,57.74414,Gondor,"<b>Pelagrir</b>"],
+[36.87962,66.00586,Gondor,"<b>Cair Andros</b>"],
+[33.28462,67.58789,Gondor,"<b>Osgiliath</b>"],
+[32.91649,64.24805,Gondor,"<b>Minas Tirith</b>"]]
 
+var markers_Rohan = []
 
-var markers_Vale = []
+var markers_DarkForces = []
 
-var markers_North = []
-
-var markers_CL = []
+var markers_Dwarves = []
 
 //Reach
 
-var markers_Reach = []
+var markers_DarkMen = []
 //Iron Islands
-var markers_II = []
+var markers_Breeland = []
 
-var markers_Dorne = []
+var markers_Lothlorien = []
 
 //Riverlands
-var markers_RL = []
+var markers_Wilderlands = []
 
-var markers_West = []
+var markers_Lindon = []
 
-var markers_NonWesteros = []
+var markers_Woodlands = []
 
 var markers_Logos = []

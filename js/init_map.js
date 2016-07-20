@@ -10,7 +10,9 @@
 		  
 		/*This function gives you Lat Long of what you click on */
 		
-		function onMapClick(e) {
+		/*function onMapClick(e) {
+			alert("You clicked the map at " + e.latlng);
+
 			if(confirm("ADD MARKER HERE=?")){
 				var mrk = prompt("Marker (Gondor,Rohan,DarkMen,Breeland,Lothlorien,Dwarves,Woodlands,Wilderlands,DarkForces,Lindon):")
 				var txt = prompt("Text")
@@ -23,7 +25,7 @@
 			}
 
 		};
-		map.on('click', onMapClick);
+		map.on('click', onMapClick);*/
 		
 
 		
