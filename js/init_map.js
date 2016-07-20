@@ -9,12 +9,12 @@
         }).addTo(map);
 		  
 		/*This function gives you Lat Long of what you click on */
-		/*
+		
 		function onMapClick(e) {
 			if(confirm("ADD MARKER HERE=?")){
-				var mrk = prompt("Marker (SL,CL,Dorne,II,North,NotWesteros,RL,TrueNorth,Vale,Wall,West):")
+				var mrk = prompt("Marker (Gondor,Rohan,DarkMen,Breeland,Lothlorien,Dwarves,Woodlands,Wilderlands,DarkForces,Lindon):")
 				var txt = prompt("Text")
-				m_icon = L.icon({iconUrl: 'img/marker/'+mrk+'.png',iconSize: [32, 74]})
+				m_icon = L.icon({iconUrl: 'img/marker/'+mrk+'.png',iconSize: [21, 21]})
 				mark = new L.Marker([e.latlng.lat, e.latlng.lng], {icon: m_icon}).bindPopup(txt);
 				map.addLayer(mark)
 	
@@ -24,7 +24,7 @@
 
 		};
 		map.on('click', onMapClick);
-		*/
+		
 
 		
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer
@@ -41,135 +41,135 @@
          }
 		var markerLayerGondor = L.layerGroup(arrGondorMarkers).addTo(map);
 		
-		/*
-		//Loop through the CL markers (declared on marker.js) array and add markers to layer
-		var arrCLMarkers = []
-         for (var i=0; i<markers_CL.length; i++) {
+		
+		//Loop through the Rohan markers (declared on marker.js) array and add markers to layer
+		var arrRohanMarkers = []
+         for (var i=0; i<markers_Rohan.length; i++) {
            
-            var lat = markers_CL[i][0];
-            var lon = markers_CL[i][1];
-			var icn = markers_CL[i][2];
-            var popupText = markers_CL[i][3];
+            var lat = markers_Rohan[i][0];
+            var lon = markers_Rohan[i][1];
+			var icn = markers_Rohan[i][2];
+            var popupText = markers_Rohan[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrCLMarkers.push(marker)
+			arrRohanMarkers.push(marker)
          }
-		var markerLayerCL = L.layerGroup(arrCLMarkers).addTo(map);
+		var markerLayerRohan = L.layerGroup(arrRohanMarkers).addTo(map);
 
-		//Loop through the Vale markers (declared on marker.js) array and add markers to layer
-		var arrValeMarkers = []
-         for (var i=0; i<markers_Vale.length; i++) {
+		//Loop through the Dark Forces markers (declared on marker.js) array and add markers to layer
+		var arrDarkForcesMarkers = []
+         for (var i=0; i<markers_DarkForces.length; i++) {
            
-            var lat = markers_Vale[i][0];
-            var lon = markers_Vale[i][1];
-			var icn = markers_Vale[i][2];
-            var popupText = markers_Vale[i][3];
+            var lat = markers_DarkForces[i][0];
+            var lon = markers_DarkForces[i][1];
+			var icn = markers_DarkForces[i][2];
+            var popupText = markers_DarkForces[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrValeMarkers.push(marker)
+			arrDarkForcesMarkers.push(marker)
          }
-		var markerLayerVale = L.layerGroup(arrValeMarkers).addTo(map);
+		var markerLayerDarkForces = L.layerGroup(arrDarkForcesMarkers).addTo(map);
 		
 		
-		//Loop through the North markers (declared on marker.js) array and add markers to layer
-		var arrNorthMarkers = []
-         for (var i=0; i<markers_North.length; i++) {
+		//Loop through the Dwarves markers (declared on marker.js) array and add markers to layer
+		var arrDwarvesMarkers = []
+         for (var i=0; i<markers_Dwarves.length; i++) {
            
-            var lat = markers_North[i][0];
-            var lon = markers_North[i][1];
-			var icn = markers_North[i][2];
-            var popupText = markers_North[i][3];
+            var lat = markers_Dwarves[i][0];
+            var lon = markers_Dwarves[i][1];
+			var icn = markers_Dwarves[i][2];
+            var popupText = markers_Dwarves[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrNorthMarkers.push(marker)
+			arrDwarvesMarkers.push(marker)
          }
-		var markerLayerNorth = L.layerGroup(arrNorthMarkers).addTo(map);		
+		var markerLayerDwarves = L.layerGroup(arrDwarvesMarkers).addTo(map);		
 
-		//Loop through the Dorne markers (declared on marker.js) array and add markers to layer
-		var arrDorneMarkers = []
-         for (var i=0; i<markers_Dorne.length; i++) {
+		//Loop through the DarkMen markers (declared on marker.js) array and add markers to layer
+		var arrDarkMenMarkers = []
+         for (var i=0; i<markers_DarkMen.length; i++) {
            
-            var lat = markers_Dorne[i][0];
-            var lon = markers_Dorne[i][1];
-			var icn = markers_Dorne[i][2];
-            var popupText = markers_Dorne[i][3];
+            var lat = markers_DarkMen[i][0];
+            var lon = markers_DarkMen[i][1];
+			var icn = markers_DarkMen[i][2];
+            var popupText = markers_DarkMen[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrDorneMarkers.push(marker)
+			arrDarkMenMarkers.push(marker)
          }
-		var markerLayerDorne = L.layerGroup(arrDorneMarkers).addTo(map);	
+		var markerLayerDarkMen = L.layerGroup(arrDarkMenMarkers).addTo(map);	
 		
 
-		//Loop through the Reach markers (declared on marker.js) array and add markers to layer
-		var arrReachMarkers = []
-         for (var i=0; i<markers_Reach.length; i++) {
+		//Loop through the Breeland markers (declared on marker.js) array and add markers to layer
+		var arrBreelandMarkers = []
+         for (var i=0; i<markers_Breeland.length; i++) {
            
-            var lat = markers_Reach[i][0];
-            var lon = markers_Reach[i][1];
-			var icn = markers_Reach[i][2];
-            var popupText = markers_Reach[i][3];
+            var lat = markers_Breeland[i][0];
+            var lon = markers_Breeland[i][1];
+			var icn = markers_Breeland[i][2];
+            var popupText = markers_Breeland[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrReachMarkers.push(marker)
+			arrBreelandMarkers.push(marker)
          }
-		var markerLayerReach = L.layerGroup(arrReachMarkers).addTo(map);			
+		var markerLayerBreeland = L.layerGroup(arrBreelandMarkers).addTo(map);			
 		
-		//Loop through the II markers (declared on marker.js) array and add markers to layer
-		var arrIIMarkers = []
-         for (var i=0; i<markers_II.length; i++) {
+		//Loop through the Lothlorien markers (declared on marker.js) array and add markers to layer
+		var arrLothlorienMarkers = []
+         for (var i=0; i<markers_Lothlorien.length; i++) {
            
-            var lat = markers_II[i][0];
-            var lon = markers_II[i][1];
-			var icn = markers_II[i][2];
-            var popupText = markers_II[i][3];
+            var lat = markers_Lothlorien[i][0];
+            var lon = markers_Lothlorien[i][1];
+			var icn = markers_Lothlorien[i][2];
+            var popupText = markers_Lothlorien[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrIIMarkers.push(marker)
+			arrLothlorienMarkers.push(marker)
          }
-		var markerLayerII = L.layerGroup(arrIIMarkers).addTo(map);	
+		var markerLayerLothlorien = L.layerGroup(arrLothlorienMarkers).addTo(map);	
 
 		
-		//Loop through the RL markers (declared on marker.js) array and add markers to layer
-		var arrRLMarkers = []
-         for (var i=0; i<markers_RL.length; i++) {
+		//Loop through the Wilderlands markers (declared on marker.js) array and add markers to layer
+		var arrWilderlandsMarkers = []
+         for (var i=0; i<markers_Wilderlands.length; i++) {
            
-            var lat = markers_RL[i][0];
-            var lon = markers_RL[i][1];
-			var icn = markers_RL[i][2];
-            var popupText = markers_RL[i][3];
+            var lat = markers_Wilderlands[i][0];
+            var lon = markers_Wilderlands[i][1];
+			var icn = markers_Wilderlands[i][2];
+            var popupText = markers_Wilderlands[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrRLMarkers.push(marker)
+			arrWilderlandsMarkers.push(marker)
          }
-		var markerLayerRL = L.layerGroup(arrRLMarkers).addTo(map);	
+		var markerLayerWilderlands = L.layerGroup(arrWilderlandsMarkers).addTo(map);	
 		
-		//Loop through the West markers (declared on marker.js) array and add markers to layer
-		var arrWestMarkers = []
-         for (var i=0; i<markers_West.length; i++) {
+		//Loop through the Lindon markers (declared on marker.js) array and add markers to layer
+		var arrLindonMarkers = []
+         for (var i=0; i<markers_Lindon.length; i++) {
            
-            var lat = markers_West[i][0];
-            var lon = markers_West[i][1];
-			var icn = markers_West[i][2];
-            var popupText = markers_West[i][3];
+            var lat = markers_Lindon[i][0];
+            var lon = markers_Lindon[i][1];
+			var icn = markers_Lindon[i][2];
+            var popupText = markers_Lindon[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrWestMarkers.push(marker)
+			arrLindonMarkers.push(marker)
          }
-		var markerLayerWest = L.layerGroup(arrWestMarkers).addTo(map);	
+		var markerLayerLindon = L.layerGroup(arrLindonMarkers).addTo(map);	
 
-		//Loop through the NonWesteros markers (declared on marker.js) array and add markers to layer
-		var arrNonWesterosMarkers = []
-         for (var i=0; i<markers_NonWesteros.length; i++) {
+		//Loop through the Woodlands markers (declared on marker.js) array and add markers to layer
+		var arrWoodlandsMarkers = []
+         for (var i=0; i<markers_Woodlands.length; i++) {
            
-            var lat = markers_NonWesteros[i][0];
-            var lon = markers_NonWesteros[i][1];
-			var icn = markers_NonWesteros[i][2];
-            var popupText = markers_NonWesteros[i][3];
+            var lat = markers_Woodlands[i][0];
+            var lon = markers_Woodlands[i][1];
+			var icn = markers_Woodlands[i][2];
+            var popupText = markers_Woodlands[i][3];
             
              var marker = new L.Marker([lat, lon], {icon: icn}).bindPopup(popupText);
-			arrNonWesterosMarkers.push(marker)
+			arrWoodlandsMarkers.push(marker)
          }
-		var markerLayerNonWesteros = L.layerGroup(arrNonWesterosMarkers).addTo(map);
+		var markerLayerWoodlands = L.layerGroup(arrWoodlandsMarkers).addTo(map);
 		
 		//Add logo markers to map at each layer, etc
 		var arrLogosMarkers = []
@@ -184,34 +184,34 @@
 			arrLogosMarkers.push(marker)
          }
 		var markerLayerLogos = L.layerGroup(arrLogosMarkers).addTo(map);	
-		*/		
+			
 		
 		// Hide markers if the user zooms out
 		map.on('zoomend', function () {
 			if (map.getZoom() < 2) {
 				map.removeLayer(markerLayerGondor);
-				/*map.removeLayer(markerLayerCL);
-				map.removeLayer(markerLayerVale);
-				map.removeLayer(markerLayerNorth);
-				map.removeLayer(markerLayerDorne);
-				map.removeLayer(markerLayerReach);				
-				map.removeLayer(markerLayerII);	
-				map.removeLayer(markerLayerRL);
-				map.removeLayer(markerLayerWest);	
-				map.removeLayer(markerLayerNonWesteros);*/	
+				map.removeLayer(markerLayerRohan);
+				map.removeLayer(markerLayerDarkForces);
+				map.removeLayer(markerLayerDwarves);
+				map.removeLayer(markerLayerDarkMen);
+				map.removeLayer(markerLayerBreeland);				
+				map.removeLayer(markerLayerLothlorien);	
+				map.removeLayer(markerLayerWilderlands);
+				map.removeLayer(markerLayerLindon);	
+				map.removeLayer(markerLayerWoodlands);	
 			}
 			else
 			{
 				map.addLayer(markerLayerGondor);
-				/*map.addLayer(markerLayerCL);
-				map.addLayer(markerLayerVale);
-				map.addLayer(markerLayerNorth);
-				map.addLayer(markerLayerDorne);
-				map.addLayer(markerLayerReach);
-				map.addLayer(markerLayerII);
-				map.addLayer(markerLayerWest);
-				map.addLayer(markerLayerRL);
-				map.addLayer(markerLayerNonWesteros);*/
+				map.addLayer(markerLayerRohan);
+				map.addLayer(markerLayerDarkForces);
+				map.addLayer(markerLayerDwarves);
+				map.addLayer(markerLayerDarkMen);
+				map.addLayer(markerLayerBreeland);
+				map.addLayer(markerLayerLothlorien);
+				map.addLayer(markerLayerLindon);
+				map.addLayer(markerLayerWilderlands);
+				map.addLayer(markerLayerWoodlands);
 								
 			}   
 		}); 
@@ -226,98 +226,98 @@
 				map.addLayer(markerLayerGondor);
 			}
 		}
-		/*
-		function toggleCLLayer(){
-			if (map.hasLayer(markerLayerCL)) {
-				map.removeLayer(markerLayerCL);
+		
+		function toggleRohanLayer(){
+			if (map.hasLayer(markerLayerRohan)) {
+				map.removeLayer(markerLayerRohan);
 			}
 			else
 			{
-				map.addLayer(markerLayerCL);
+				map.addLayer(markerLayerRohan);
 			}
 		}
 		
-		function toggleValeLayer(){
-			if (map.hasLayer(markerLayerVale)) {
-				map.removeLayer(markerLayerVale);
+		function toggleDarkForcesLayer(){
+			if (map.hasLayer(markerLayerDarkForces)) {
+				map.removeLayer(markerLayerDarkForces);
 			}
 			else
 			{
-				map.addLayer(markerLayerVale);
+				map.addLayer(markerLayerDarkForces);
 			}
 		}
 		
-		function toggleNorthLayer(){
-			if (map.hasLayer(markerLayerNorth)) {
-				map.removeLayer(markerLayerNorth);
+		function toggleDwarvesLayer(){
+			if (map.hasLayer(markerLayerDwarves)) {
+				map.removeLayer(markerLayerDwarves);
 			}
 			else
 			{
-				map.addLayer(markerLayerNorth);
+				map.addLayer(markerLayerDwarves);
 			}
 		}				
 
-		function toggleDorneLayer(){
-			if (map.hasLayer(markerLayerDorne)) {
-				map.removeLayer(markerLayerDorne);
+		function toggleDarkMenLayer(){
+			if (map.hasLayer(markerLayerDarkMen)) {
+				map.removeLayer(markerLayerDarkMen);
 			}
 			else
 			{
-				map.addLayer(markerLayerDorne);
+				map.addLayer(markerLayerDarkMen);
 			}
 		}	
 
-		function toggleReachLayer(){
-			if (map.hasLayer(markerLayerReach)) {
-				map.removeLayer(markerLayerReach);
+		function toggleBreelandLayer(){
+			if (map.hasLayer(markerLayerBreeland)) {
+				map.removeLayer(markerLayerBreeland);
 			}
 			else
 			{
-				map.addLayer(markerLayerReach);
+				map.addLayer(markerLayerBreeland);
 			}
 		}	
 
-		function toggleIILayer(){
-			if (map.hasLayer(markerLayerII)) {
-				map.removeLayer(markerLayerII);
+		function toggleLothlorienLayer(){
+			if (map.hasLayer(markerLayerLothlorien)) {
+				map.removeLayer(markerLayerLothlorien);
 			}
 			else
 			{
-				map.addLayer(markerLayerII);
+				map.addLayer(markerLayerLothlorien);
 			}
 		}			
 
-		function toggleRLLayer(){
-			if (map.hasLayer(markerLayerRL)) {
-				map.removeLayer(markerLayerRL);
+		function toggleWilderlandsLayer(){
+			if (map.hasLayer(markerLayerWilderlands)) {
+				map.removeLayer(markerLayerWilderlands);
 			}
 			else
 			{
-				map.addLayer(markerLayerRL);
+				map.addLayer(markerLayerWilderlands);
 			}
 		}	
 		
-		function toggleWestLayer(){
-			if (map.hasLayer(markerLayerWest)) {
-				map.removeLayer(markerLayerWest);
+		function toggleLindonLayer(){
+			if (map.hasLayer(markerLayerLindon)) {
+				map.removeLayer(markerLayerLindon);
 			}
 			else
 			{
-				map.addLayer(markerLayerWest);
+				map.addLayer(markerLayerLindon);
 			}
 		}			
 
-		function toggleNonWesterosLayer(){
-			if (map.hasLayer(markerLayerNonWesteros)) {
-				map.removeLayer(markerLayerNonWesteros);
+		function toggleWoodlandsLayer(){
+			if (map.hasLayer(markerLayerWoodlands)) {
+				map.removeLayer(markerLayerWoodlands);
 			}
 			else
 			{
-				map.addLayer(markerLayerNonWesteros);
+				map.addLayer(markerLayerWoodlands);
 			}
 		}					
-		*/		
-		var selector = L.control({
+				
+		/*var selector = L.control({
 		  position: 'topleft'
 		});
 		selector.onAdd = function(map) {
@@ -349,4 +349,4 @@
 				// map.setView()
 				markerLayerNonWesteros.getLayer(e.target.value).openPopup();
 			}
-		}
+		}*/
