@@ -46,17 +46,17 @@ var markers_Gondor = [
 
 var markers_Rohan = []
 
-var markers_DarkForces = [
+var markers_DarkForces = []
+
+var markers_Dwarves = []
+
+var markers_DarkMen = [
 [-35.74651, 18.36914,Umbar,"<b>Caldur</b>"],
 [-32.99024, 26.45508,Umbar,"<b>Isigir</b>"],
 [-32.17561, 34.10156,Umbar,"<b>Barazon</b>"],
 [-35.03, 30.32227,Umbar,"<b>Maros</b>"],
 [-36.45664, 36.82617,Umbar,"<b>Umbar</b>"],
 [-39.63954, -9.84375,Umbar,"<b>Erelond</b>"]]
-
-var markers_Dwarves = []
-
-var markers_DarkMen = []
 
 var markers_Breeland = []
 
