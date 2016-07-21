@@ -66,13 +66,17 @@ var markers_DarkForces = [
 [35.03, 76.37695,DarkForces,"<b>Cirit Ungol</b>"],
 [27.05913, 86.13281,DarkForces,"<b>Seregost</b>"],
 [31.57854, 97.20703,DarkForces,"<b>Nargoth</b>"],
+[65.47651, 20.6543,DarkForces,"<b>Khazad-Dûm<b/>"],
 [63.27318, 58.62305,Nazgul,"<b>Dol Guldur</b>"],
 [34.45222, 72.59766,Nazgul,"<b>Minas Morgul</b>"],
 [37.09024, 83.4082,DarkForces,"<b>Mount Doom</b>"]]
 
 var markers_Dwarves = [
 [72.58083, -59.76562,BlueDwarves,"<b>Belegost</b>"],
-[70.61261, -52.11914,BlueDwarves,"<b>Nogrond</b>"]]
+[70.61261, -52.11914,BlueDwarves,"<b>Nogrond</b>"],
+[75.3867, 82.5293,MoriaDwarves,"<b>Erebor</b>"],
+[75.07301, 106.875,MoriaDwarves,"<b>Barukkhizdín</b>"],
+[75.65043, 99.58008,MoriaDwarves,"<b>Azanûlinbar-Dûm</b>"]]
 
 var markers_DarkMen = [
 [-35.74651, 18.36914,Umbar,"<b>Caldur</b>"],
@@ -307,6 +311,52 @@ var SouthernBlueMountainsPoly = L.polygon([
 	new L.LatLng(70.55418, -50.71289)
 
 	],{fillOpacity:.4,color:'#227a93'})
+
+var IronHillsPoly = L.polygon([
+	new L.LatLng(75.65043, 93.25195),
+	new L.LatLng(75.95224, 94.57031),
+	new L.LatLng(76.05851, 97.03125),
+	new L.LatLng(76.14296, 101.16211),
+	new L.LatLng(76.185, 109.24805),
+	new L.LatLng(75.88809, 117.42188),
+	new L.LatLng(75.80212, 118.38867),
+	new L.LatLng(75.58494, 118.56445),
+	new L.LatLng(75.36451, 117.24609),
+	new L.LatLng(74.98218, 112.85156),
+	new L.LatLng(75.11822, 108.28125),
+	new L.LatLng(74.79891, 107.22656),
+	new L.LatLng(74.75275, 106.61133),
+	new L.LatLng(75.05035, 105.82031),
+	new L.LatLng(74.86789, 100.45898),
+	new L.LatLng(74.89082, 98.96484),
+	new L.LatLng(75.02766, 96.15234),
+	new L.LatLng(75.49716, 93.16406)
+
+	],{fillOpacity:.4,color:'#CD7F32'})
+
+var MoriaPoly = L.polygon([
+	new L.LatLng(67.74276, 14.85352),
+	new L.LatLng(68.04046, 15.46875),
+	new L.LatLng(68.39918, 18.01758),
+	new L.LatLng(68.26939, 22.76367),
+	new L.LatLng(68.04046, 23.55469),
+	new L.LatLng(67.50857, 24.16992),
+	new L.LatLng(65.83878, 25.3125),
+	new L.LatLng(65.29347, 25.83984),
+	new L.LatLng(64.96077, 25.48828),
+	new L.LatLng(64.62388, 23.73047),
+	new L.LatLng(64.58618, 22.14844),
+	new L.LatLng(63.93737, 22.67578),
+	new L.LatLng(63.50938, 21.26953),
+	new L.LatLng(62.99516, 20.30273),
+	new L.LatLng(63.31268, 17.75391),
+	new L.LatLng(63.89873, 17.13867),
+	new L.LatLng(64.16811, 15.82031),
+	new L.LatLng(64.58618, 15.73242),
+	new L.LatLng(65.10915, 17.66602),
+	new L.LatLng(67.03316, 17.92969)
+	
+	],{fillOpacity:.4,color:'#c0111a'})
 
 var UmbarPoly = L.polygon([
 	new L.LatLng(-28.38174, 30.49805),
