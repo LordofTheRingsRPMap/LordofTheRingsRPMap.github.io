@@ -9,6 +9,7 @@ var Gondor = L.icon({iconUrl: 'img/marker/Gondor.png',iconSize: [21, 21]})
 var Rohan = L.icon({iconUrl: 'img/marker/Rohan.png',iconSize: [21, 21]})
 
 var DarkForces = L.icon({iconUrl: 'img/marker/DarkForces.png',iconSize: [21, 21]})
+var Nazgul = L.icon({iconUrl: 'img/marker/Nazgul.png',iconSize: [21, 21]})
 
 var BlueDwarves = L.icon({iconUrl: 'img/marker/Bl.png',iconSize: [21, 21]})
 var MoriaDwarves = L.icon({iconUrl: 'img/marker/MoriaDwarves.png',iconSize: [21, 21]})
@@ -54,9 +55,23 @@ var markers_Rohan = [
 [47.57653, 13.79883,Rohan,"<b>Helm's Deep</b>"],
 [47.04018, 6.32813,Rohan,"<b>West-march</b>"]]
 
-var markers_DarkForces = []
+var markers_DarkForces = [
+[78.0983, 26.19141,DarkForces,"<b>Mount Gundabad</b>"],
+[77.15716, 11.42578,DarkForces,"<b>Mount Gram</b>"],
+[76.12189, 13.44727,DarkForces,"<b>Ettenmoors</b>"],
+[73.02259, 28.56445,DarkForces,"<b>Goblin Town</b>"],
+[43.83453, 74.44336,DarkForces,"<b>The Black Gate</b>"],
+[40.9799, 76.55273,DarkForces,"<b>Isenmouthe</b>"],
+[37.57941, 86.30859,DarkForces,"<b>Barad-dur</b>"],
+[35.03, 76.37695,DarkForces,"<b>Cirit Ungol</b>"],
+[27.05913, 86.13281,DarkForces,"<b>Seregost</b>"],
+[31.57854, 97.20703,DarkForces,"<b>Nargoth</b>"],
+[63.27318, 58.62305,Nazgul,"<b>Dol Guldur</b>"],
+[34.45222, 72.59766,Nazgul,"<b>Minas Morgul</b>"],
+[37.09024, 83.4082,DarkForces,"<b>Mount Doom</b>"]]
 
-var markers_Dwarves = []
+var markers_Dwarves = [
+]
 
 var markers_DarkMen = [
 [-35.74651, 18.36914,Umbar,"<b>Caldur</b>"],
@@ -198,6 +213,62 @@ var RohanPoly = L.polygon([
 	new L.LatLng(39.3003, 39.19922)
 
 	],{fillOpacity:.4,color:'#4ca20b'})
+
+var MordorPoly = L.polygon([
+	new L.LatLng(44.15068, 75.32227),
+	new L.LatLng(44.02442, 76.11328),
+	new L.LatLng(43.06889, 77.34375),
+	new L.LatLng(41.90228, 80.68359),
+	new L.LatLng(40.91351, 86.04492),
+	new L.LatLng(40.9799, 90.35156),
+	new L.LatLng(41.57436, 94.92188),
+	new L.LatLng(41.44273, 108.80859),
+	new L.LatLng(41.70573, 111.00586),
+	new L.LatLng(41.04622, 112.41211),
+	new L.LatLng(39.50404, 112.14844),
+	new L.LatLng(37.57941, 111.09375),
+	new L.LatLng(31.95216, 99.4043),
+	new L.LatLng(26.03704, 85.60547),
+	new L.LatLng(23.40276, 80.94727),
+	new L.LatLng(22.67485, 79.36523),
+	new L.LatLng(22.35008, 77.51953),
+	new L.LatLng(25.95804, 75.67383),
+	new L.LatLng(28.22697, 73.65234),
+	new L.LatLng(33.21112, 73.82813),
+	new L.LatLng(34.45222, 72.77344),
+	new L.LatLng(42.22852, 71.10352),
+	new L.LatLng(43.26121, 71.54297),
+	new L.LatLng(44.08759, 73.30078)
+
+	],{fillOpacity:.4,color:"#c01a11"})
+
+var NorthernMistyMountainsPoly = L.polygon([
+	new L.LatLng(75.88809, 25.22461),
+	new L.LatLng(76.47577, 28.03711),
+	new L.LatLng(76.92061, 28.65234),
+	new L.LatLng(77.80477, 26.36719),
+	new L.LatLng(78.17058, 26.63086),
+	new L.LatLng(78.56049, 25.22461),
+	new L.LatLng(78.42019, 24.16992),
+	new L.LatLng(78.83607, 20.21484),
+	new L.LatLng(78.7335, 18.63281),
+	new L.LatLng(78.50808, 17.22656),
+	new L.LatLng(78.33165, 17.31445),
+	new L.LatLng(77.78619, 19.77539),
+	new L.LatLng(77.44694, 20.21484),
+	new L.LatLng(77.11803, 18.98438),
+	new L.LatLng(77.15716, 15.0293),
+	new L.LatLng(77.3895, 11.60156),
+	new L.LatLng(77.21564, 10.10742),
+	new L.LatLng(76.7404, 10.01953),
+	new L.LatLng(75.82366, 12.04102),
+	new L.LatLng(75.71563, 13.71094),
+	new L.LatLng(75.69393, 19.42383),
+	new L.LatLng(75.47513, 19.86328),
+	new L.LatLng(75.84517, 25.57617)
+
+	],{fillOpacity:.4,color:"#c01a11"})
+
 
 var UmbarPoly = L.polygon([
 	new L.LatLng(-28.38174, 30.49805),
