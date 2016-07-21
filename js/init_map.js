@@ -10,7 +10,7 @@
 		  
 		/*This function gives you Lat Long of what you click on */
 		
-		function onMapClick(e) {
+		/*function onMapClick(e) {
 			alert("You clicked the map at " + e.latlng);
 
 			/*if(confirm("ADD MARKER HERE=?")){
@@ -24,9 +24,9 @@
 	
 			}*/
 
-		};
+		/*};
 		map.on('click', onMapClick);
-		
+		*/
 
 		//loop through Polygons and display
 		
