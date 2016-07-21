@@ -46,7 +46,13 @@ var markers_Gondor = [
 
 var markers_Rohan = []
 
-var markers_DarkForces = []
+var markers_DarkForces = [
+[-35.74651, 18.36914,Umbar,"<b>Caldur</b>"],
+[-32.99024, 26.45508,Umbar,"<b>Isigir</b>"],
+[-32.17561, 34.10156,Umbar,"<b>Barazon</b>"],
+[-35.03, 30.32227,Umbar,"<b>Maros</b>"],
+[-36.45664, 36.82617,Umbar,"<b>Umbar</b>"],
+[-39.63954, -9.84375,Umbar,"<b>Erelond</b>"]]
 
 var markers_Dwarves = []
 
@@ -119,6 +125,35 @@ var GondorPoly = L.polygon([
 			new L.LatLng(17.64402, 39.375),
 			new L.LatLng(13.32548, 39.19922)
 
-			],{fill: true,fillOpacity:.4,color:'#F5F6F7'});
+			],{fill: true,fillOpacity:.4,color:'#F5F6F7'})
 
+var UmbarPoly = L.polygon([
+	new L.LatLng(-28.38174, 30.49805),
+	new L.LatLng(-29.07538, 28.38867),
+	new L.LatLng(-28.1495, 26.01563),
+	new L.LatLng(-29.38218, 24.3457),
+	new L.LatLng(-28.99853, 21.62109),
+	new L.LatLng(-31.50363, 20.6543),
+	new L.LatLng(-35.53223, 17.75391),
+	new L.LatLng(-35.96022, 18.7207),
+	new L.LatLng(-33.35806, 21.97266),
+	new L.LatLng(-32.02671, 22.14844),
+	new L.LatLng(-33.21112, 23.20313),
+	new L.LatLng(-33.06392, 28.21289),
+	new L.LatLng(-32.17561, 34.10156),
+	new L.LatLng(-33.65121, 33.22266),
+	new L.LatLng(-34.74161, 29.35547),
+	new L.LatLng(-35.38905, 31.11328),
+	new L.LatLng(-34.45222, 34.27734),
+	new L.LatLng(-34.958, 36.5625),
+	new L.LatLng(-35.81781, 37.5293),
+	new L.LatLng(-36.17336, 35.77148),
+	new L.LatLng(-36.87962, 36.47461),
+	new L.LatLng(-38.47939, 30.41016),
+	new L.LatLng(-39.57182, 33.83789),
+	new L.LatLng(-37.57941, 40.42969),
+	new L.LatLng(-36.17336, 40.60547),
+	new L.LatLng(-33.43144, 39.28711),
+	new L.LatLng(-30.90222, 36.91406)
 
+	],{fill: true,fillOpacity:.4,color:'#c0111a'});
