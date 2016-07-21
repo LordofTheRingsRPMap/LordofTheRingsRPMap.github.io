@@ -87,7 +87,8 @@ var markers_DarkMen = [
 [-36.45664, 36.82617,Umbar,"<b>Umbar</b>"],
 [-39.63954, -9.84375,Umbar,"<b>Erelond</b>"],
 [-15.36895, 64.16016,Hanistor,"<b>Gobel Ancalimon</b>"],
-[-0.87887, 61.25977,Hanistor,"<b>Amon Eithel</b>"]]
+[-0.87887, 61.25977,Hanistor,"<b>Amon Eithel</b>"],
+[-14.09396, 84.55078,DarkMen,"<b>amrûn</b>"]]
 
 var markers_Breeland = []
 
@@ -409,7 +410,7 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(-12.64034, 65.03906),
   	new L.LatLng(-14.51978, 64.16016),
   	new L.LatLng(-15.28419, 64.95117),
-  	new L.LatLng(-16.55196, 64.33594),
+  	new L.LatLng(-16.55196, 64.33594),//south
   	new L.LatLng(-17.56025, 63.7207),
   	new L.LatLng(-17.30869, 60.64453),
   	new L.LatLng(-15.96133, 59.41406),
@@ -418,8 +419,29 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(-10.0554, 53.61328),
   	new L.LatLng(-7.71099, 52.99805),
   	new L.LatLng(-4.74068, 50.80078),
-  	new L.LatLng(-0.17578, 50.44922),
+  	new L.LatLng(-0.17578, 50.44922),//west
   	new L.LatLng(1.40611, 52.64648),
   	new L.LatLng(3.33795, 59.94141)
 
-  	],{fillOpacity:.4,color:'#B5A019'});
+  	],{fillOpacity:.4,color:'#B5A019'})
+
+  var HaradwaithPoly = L.polygon([
+  	new L.LatLng(-7.9722, 82.44141),//north
+  	new L.LatLng(-7.9722, 84.72656),
+  	new L.LatLng(-9.36235, 88.24219),
+  	new L.LatLng(-11.52309, 94.57031),
+  	new L.LatLng(-13.9234, 96.24023),
+  	new L.LatLng(-17.22476, 97.99805),//east
+  	new L.LatLng(-19.64259, 96.50391),
+  	new L.LatLng(-22.59373, 95.27344),
+  	new L.LatLng(-23.80545, 92.63672),//south
+  	new L.LatLng(-21.04349, 77.34375),
+  	new L.LatLng(-17.81146, 63.98438),//west
+  	new L.LatLng(-15.28419, 65.30273),
+  	new L.LatLng(-15.11455, 65.21484),
+  	new L.LatLng(-14.26438, 64.6875),
+  	new L.LatLng(-12.64034, 65.39063),
+  	new L.LatLng(-11.86735, 72.24609),
+  	new L.LatLng(-9.36235, 76.9043)
+
+  	],{fillOpacity:.4,color:'#ca7823'});
