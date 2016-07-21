@@ -14,8 +14,9 @@ var Nazgul = L.icon({iconUrl: 'img/marker/Nazgul.png',iconSize: [21, 21]})
 var BlueDwarves = L.icon({iconUrl: 'img/marker/BlueDwarves.png',iconSize: [21, 21]})
 var MoriaDwarves = L.icon({iconUrl: 'img/marker/MoriaDwarves.png',iconSize: [21, 21]})
 
-var DarkMen = L.icon({iconUrl: 'img/marker/DarkMen.png',iconSize: [21, 21]})
+var DarkMen = L.icon({iconUrl: 'img/marker/DarkMen0.png',iconSize: [21, 21]})
 var Umbar = L.icon({iconUrl: 'img/marker/Umbar.png',iconSize: [21, 21]})
+var Hanistor = L.icon({iconUrl: 'img/marker/Hanistor.png',iconSize: [21,21]})
 
 var Arnor = L.icon({iconUrl: 'img/marker/Arnor.png',iconSize: [21, 21]})
 var Shire = L.icon({iconUrl: 'img/marker/Shire.png',iconSize: [21, 21]})
@@ -84,7 +85,9 @@ var markers_DarkMen = [
 [-32.17561, 34.10156,Umbar,"<b>Barazon</b>"],
 [-35.03, 30.32227,Umbar,"<b>Maros</b>"],
 [-36.45664, 36.82617,Umbar,"<b>Umbar</b>"],
-[-39.63954, -9.84375,Umbar,"<b>Erelond</b>"]]
+[-39.63954, -9.84375,Umbar,"<b>Erelond</b>"],
+[-15.36895, 64.16016,Hanistor,"<b>Gobel Ancalimon</b>"],
+[-0.87887, 61.25977,Hanistor,"<b>Amon Eithel</b>"]]
 
 var markers_Breeland = []
 
@@ -387,4 +390,36 @@ var UmbarPoly = L.polygon([
 	new L.LatLng(-33.43144, 39.28711),
 	new L.LatLng(-30.90222, 36.91406)
 
-	],{fill: true,fillOpacity:.4,color:'#c0111a'});
+	],{fill: true,fillOpacity:.4,color:'#c0111a'})
+
+  var HarondorPoly = L.polygon([
+  	new L.LatLng(4.82826, 64.24805),//north
+  	new L.LatLng(4.82826, 66.44531),
+  	new L.LatLng(4.03962, 67.85156),
+  	new L.LatLng(0.26367, 69.69727),//east
+  	new L.LatLng(-0.08789, 68.99414),
+  	new L.LatLng(-0.87887, 68.81836),
+  	new L.LatLng(-1.31824, 67.85156),
+  	new L.LatLng(-3.60114, 67.41211),
+  	new L.LatLng(-4.21494, 68.02734),
+  	new L.LatLng(-6.5773, 64.95117),
+  	new L.LatLng(-7.62389, 65.21484),
+  	new L.LatLng(-8.05923, 66.18164),
+  	new L.LatLng(-10.83331, 64.51172),
+  	new L.LatLng(-12.64034, 65.03906),
+  	new L.LatLng(-14.51978, 64.16016),
+  	new L.LatLng(-15.28419, 64.95117),
+  	new L.LatLng(-16.55196, 64.33594),
+  	new L.LatLng(-17.56025, 63.7207),
+  	new L.LatLng(-17.30869, 60.64453),
+  	new L.LatLng(-15.96133, 59.41406),
+  	new L.LatLng(-14.26438, 59.58984),
+  	new L.LatLng(-13.32548, 58.44727),
+  	new L.LatLng(-10.0554, 53.61328),
+  	new L.LatLng(-7.71099, 52.99805),
+  	new L.LatLng(-4.74068, 50.80078),
+  	new L.LatLng(-0.17578, 50.44922),
+  	new L.LatLng(1.40611, 52.64648),
+  	new L.LatLng(3.33795, 59.94141)
+
+  	],{fillOpacity:.4,color:'#B5A019'});
