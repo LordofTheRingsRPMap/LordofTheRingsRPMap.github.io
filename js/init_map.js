@@ -13,7 +13,7 @@
 		/*function onMapClick(e) {
 			alert("You clicked the map at " + e.latlng);
 
-			if(confirm("ADD MARKER HERE=?")){
+			/*if(confirm("ADD MARKER HERE=?")){
 				var mrk = prompt("Marker (Gondor,Rohan,DarkMen,Breeland,Lothlorien,Dwarves,Woodlands,Wilderlands,DarkForces,Lindon):")
 				var txt = prompt("Text")
 				m_icon = L.icon({iconUrl: 'img/marker/'+mrk+'.png',iconSize: [21, 21]})
@@ -22,13 +22,16 @@
 	
 				$("#text").val($("#text").val()+"["+e.latlng.lat+","+e.latlng.lng+","+mrk+",\""+txt+"\"],\n")
 	
-			}
+			}*/
 
-		};
+		/*};
 		map.on('click', onMapClick);*/
 		
 
+		//loop through Polygons and display
 		
+		var PolyLayer = L.layerGroup([GondorPoly]).addTo(map);
+
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer
 		var arrGondorMarkers = []
          for (var i=0; i<markers_Gondor.length; i++) {
@@ -174,7 +177,7 @@
 		var markerLayerWoodlands = L.layerGroup(arrWoodlandsMarkers).addTo(map);
 		
 		//Add logo markers to map at each layer, etc
-		var arrLogosMarkers = []
+		/*var arrLogosMarkers = []
          for (var i=0; i<markers_Logos.length; i++) {
            
             var lat = markers_Logos[i][0];
@@ -185,7 +188,7 @@
              var marker = new L.Marker([lat, lon], {icon: icn});
 			arrLogosMarkers.push(marker)
          }
-		var markerLayerLogos = L.layerGroup(arrLogosMarkers).addTo(map);	
+		var markerLayerLogos = L.layerGroup(arrLogosMarkers).addTo(map);*/
 			
 		
 		// Hide markers if the user zooms out
@@ -201,6 +204,7 @@
 				map.removeLayer(markerLayerWilderlands);
 				map.removeLayer(markerLayerLindon);	
 				map.removeLayer(markerLayerWoodlands);	
+
 			}
 			else
 			{
@@ -216,6 +220,7 @@
 				map.addLayer(markerLayerWoodlands);
 								
 			}   
+			map.addLayer(PolyLayer);
 		}); 
 		
 		
