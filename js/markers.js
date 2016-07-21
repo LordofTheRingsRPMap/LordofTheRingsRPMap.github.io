@@ -44,7 +44,15 @@ var markers_Gondor = [
 [33.28462,67.58789,Gondor,"<b>Osgiliath</b>"],
 [32.91649,64.24805,Gondor,"<b>Minas Tirith</b>"]]
 
-var markers_Rohan = []
+var markers_Rohan = [
+[42.74701, 31.99219,Rohan,"<b>Aldburg</b>"],
+[47.69497, 34.36523,Rohan,"<b>Eastfold</b>"],
+[44.71551, 24.3457,Rohan,"<b>Edoras</b>"],
+[44.46515, 17.49023,Rohan,"<b>Dunharrow</b>"],
+[50.34546, 21.79688,Rohan,"<b>Stonedeans</b>"],
+[48.5166, 17.22656,Rohan,"<b>Kingstead</b>"],
+[47.57653, 13.79883,Rohan,"<b>Helm's Deep</b>"],
+[47.04018, 6.32813,Rohan,"<b>West-march</b>"]]
 
 var markers_DarkForces = []
 
@@ -126,6 +134,70 @@ var GondorPoly = L.polygon([
 			new L.LatLng(13.32548, 39.19922)
 
 			],{fill: true,fillOpacity:.4,color:'#F5F6F7'})
+
+var RohanPoly = L.polygon([
+	new L.LatLng(37.37016, 46.75781),
+	new L.LatLng(37.92687, 49.30664),
+	new L.LatLng(42.29356, 55.19531),
+	new L.LatLng(43.06889, 51.50391),
+	new L.LatLng(44.71551, 54.58008),
+	new L.LatLng(44.90258, 57.12891),
+	new L.LatLng(46.86019, 56.77734),
+	new L.LatLng(47.27923, 56.42578),
+	new L.LatLng(48.22467, 56.60156),
+	new L.LatLng(48.9225, 58.00781),
+	new L.LatLng(49.49667, 57.74414),
+	new L.LatLng(50.12058, 58.88672),
+	new L.LatLng(52.10651, 58.79883),
+	new L.LatLng(52.69636, 58.0957),
+	new L.LatLng(53.33087, 58.35937),
+	new L.LatLng(54.52108, 54.05273),
+	new L.LatLng(55.37911, 54.05273),
+	new L.LatLng(56.12106, 55.72266),
+	new L.LatLng(56.80088, 55.72266),
+	new L.LatLng(57.08852, 54.31641),
+	new L.LatLng(57.70415, 53.87695),
+	new L.LatLng(56.99288, 48.86719),
+	new L.LatLng(57.42129, 47.28516),
+	new L.LatLng(58.7682, 46.75781),
+	new L.LatLng(59.48973, 48.60352),
+	new L.LatLng(59.933, 47.54883),
+	new L.LatLng(60.19616, 41.39648),
+	new L.LatLng(59.80063, 38.75977),
+	new L.LatLng(57.46859, 39.02344),
+	new L.LatLng(56.02295, 38.32031),
+	new L.LatLng(53.17312, 36.29883),
+	new L.LatLng(50.95843, 30.05859),
+	new L.LatLng(50.62507, 27.24609),
+	new L.LatLng(51.72703, 21.44531),
+	new L.LatLng(53.27835, 18.80859),
+	new L.LatLng(53.43572, 16.17188),
+	new L.LatLng(50.90303, 15.11719),
+	new L.LatLng(49.21042, 12.2168),
+	new L.LatLng(49.03787, 10.10742),
+	new L.LatLng(48.80686, 9.49219),
+	new L.LatLng(48.9225, 4.39453),
+	new L.LatLng(47.98992, 2.8125),
+	new L.LatLng(47.81315, 1.75781),
+	new L.LatLng(49.49667, -4.30664),
+	new L.LatLng(48.80686, -6.15234),
+	new L.LatLng(46.43786, -0.79102),
+	new L.LatLng(46.37725, 2.72461),
+	new L.LatLng(45.15105, 4.83398),
+	new L.LatLng(44.90258, 6.94336),
+	new L.LatLng(44.40239, 7.29492),
+	new L.LatLng(44.08759, 9.14063),
+	new L.LatLng(45.213, 12.91992),
+	new L.LatLng(46.49839, 12.91992),
+	new L.LatLng(46.92026, 13.88672),
+	new L.LatLng(46.80006, 14.67773),
+	new L.LatLng(45.8288, 15.55664),
+	new L.LatLng(43.38908, 15.46875),
+	new L.LatLng(43.00465, 24.87305),
+	new L.LatLng(38.89103, 34.27734),
+	new L.LatLng(39.3003, 39.19922)
+
+	],{fillOpacity:.4,color:'#4ca20b'})
 
 var UmbarPoly = L.polygon([
 	new L.LatLng(-28.38174, 30.49805),
