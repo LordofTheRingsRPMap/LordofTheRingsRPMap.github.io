@@ -35,7 +35,7 @@
 			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
 			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,
 			HaradwaithPoly, DunlandPoly, BreelandPoly, AnglePoly, ShirePoly,
-			LothlorienPoly, DalePoly]).addTo(map);
+			LothlorienPoly, DalePoly, LindonPoly]).addTo(map);
 
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer
 		var arrGondorMarkers = []

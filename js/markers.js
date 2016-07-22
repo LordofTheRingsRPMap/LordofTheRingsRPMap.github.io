@@ -110,7 +110,11 @@ var markers_Wilderlands = [
 [73.35305, 84.19922,Dale,"<b>Esgaroth (Lake-Town)</b>"],
 [74.72962, 83.84766,Dale,"<b>Dale</b>"]]
 
-var markers_Lindon = []
+var markers_Lindon = [
+[72.65959, -72.42187,HighElves,"<b>Forlond</b>"],
+[69.09994, -63.89648,HighElves,"<b>Harlond</b>"],
+[72.15489, -52.4707,HighElves,"<b>MithLond (Grey Haven)</b>"],
+[72.23551, 21.44531,HighElves,"<b>Rivendell</b>"]]
 
 var markers_Woodlands = []
 
@@ -567,4 +571,61 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(72.52813, 92.19727),
   	new L.LatLng(72.1818, 89.12109)
 
-  	],{fillOpacity:.4,color:'#3BB9FF'});
+  	],{fillOpacity:.4,color:'#3BB9FF'})
+
+  var LindonPoly = L.polygon([
+  	new L.LatLng(73.12495, -50.00977),
+  	new L.LatLng(72.738, -51.06445),
+  	new L.LatLng(72.42227, -51.24023),
+  	new L.LatLng(72.1818, -51.94336),
+  	new L.LatLng(71.69129, -54.66797),
+  	new L.LatLng(71.69129, -55.81055),
+  	new L.LatLng(71.52491, -56.60156),
+  	new L.LatLng(71.35707, -59.76562),
+  	new L.LatLng(71.41318, -61.78711),
+  	new L.LatLng(71.63599, -62.8418),
+  	new L.LatLng(71.44117, -61.78711),
+  	new L.LatLng(71.49704, -65.12695),
+  	new L.LatLng(71.66366, -65.39062),
+  	new L.LatLng(72.20868, -68.29102),
+  	new L.LatLng(72.20868, -69.3457),
+  	new L.LatLng(72.5545, -72.86133),
+  	new L.LatLng(72.81607, -74.0918),
+  	new L.LatLng(73.07384, -74.26758),
+  	new L.LatLng(73.30262, -73.56445),
+  	new L.LatLng(73.42842, -72.77344),
+  	new L.LatLng(72.99691, -67.93945),
+  	new L.LatLng(72.3691, -63.28125),
+  	new L.LatLng(72.31579, -58.88672),
+  	new L.LatLng(72.738, -52.64648),
+  	new L.LatLng(73.12495, -50.00977),
+  	new L.LatLng(72.28907, -48.86719),
+  	new L.LatLng(71.41318, -50.18555),
+  	new L.LatLng(71.04553, -52.11914),
+  	new L.LatLng(70.5249, -54.22852),
+  	new L.LatLng(70.22974, -56.60156),
+  	new L.LatLng(69.71811, -56.77734),
+  	new L.LatLng(68.911, -60.46875),
+  	new L.LatLng(68.75231, -64.33594),
+  	new L.LatLng(69.86989, -65.30273),
+  	new L.LatLng(70.08056, -63.63281),
+  	new L.LatLng(69.86989, -63.45703),
+  	new L.LatLng(69.47297, -64.24805),
+  	new L.LatLng(69.25615, -63.80859),
+  	new L.LatLng(69.59589, -62.66602),
+  	new L.LatLng(69.65709, -61.69922),
+  	new L.LatLng(69.83962, -61.34766),
+  	new L.LatLng(69.99053, -62.13867),
+  	new L.LatLng(70.40735, -62.22656),
+  	new L.LatLng(70.55418, -61.78711),
+  	new L.LatLng(70.25945, -60.0293),
+  	new L.LatLng(70.34832, -59.15039),
+  	new L.LatLng(70.02059, -58.35937),
+  	new L.LatLng(70.11048, -57.48047),
+  	new L.LatLng(70.5249, -56.51367),
+  	new L.LatLng(70.84467, -55.37109),
+  	new L.LatLng(70.87349, -54.05273),
+  	new L.LatLng(71.41318, -52.29492),
+  	new L.LatLng(72.23551, -50.00977)
+
+  	],{fillOpacity:.4,color:'#5EFB6E'});
