@@ -90,7 +90,11 @@ var markers_DarkMen = [
 [-0.87887, 61.25977,Hanistor,"<b>Amon Eithel</b>"],
 [-14.09396, 84.55078,DarkMen,"<b>amrûn</b>"]]
 
-var markers_Breeland = []
+var markers_Breeland = [
+[71.99258, -15.0293,Arnor,"<b>Bree</b>"],
+[71.99258, -12.04102,Arnor,"<b>Staddle</b>"],
+[72.65959, -12.12891,Arnor,"<b>Combe</b>"],
+[73.2267, -11.42578,Arnor,"<b>Archet</b>"]]
 
 var markers_Lothlorien = []
 
@@ -473,4 +477,21 @@ var UmbarPoly = L.polygon([
 	new L.LatLng(57.51582, -1.49414),
 	new L.LatLng(51.94426, -4.6582)//west
 
-  	],{fillOpacity:.4,color:'#a0561f'});
+  	],{fillOpacity:.4,color:'#a0561f'})
+
+  var BreelandPoly = L.polygon([
+  	new L.LatLng(71.49704, -15.11719),
+  	new L.LatLng(71.46912, -10.63477),
+  	new L.LatLng(71.77394, -6.85547),
+  	new L.LatLng(72.15489, -6.50391),
+  	new L.LatLng(72.63337, -6.85547),
+  	new L.LatLng(73.20132, -8.61328),
+  	new L.LatLng(73.62779, -10.45898),
+  	new L.LatLng(73.89811, -12.2168),
+  	new L.LatLng(73.87372, -17.66602),
+  	new L.LatLng(73.42842, -19.77539),
+  	new L.LatLng(72.738, -19.95117),
+  	new L.LatLng(71.93816, -18.45703),
+  	new L.LatLng(71.52491, -16.875)
+
+  	],{fillOpacity:.4,color:'#2c3695'});
