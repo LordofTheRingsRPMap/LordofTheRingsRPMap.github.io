@@ -94,7 +94,11 @@ var markers_Breeland = [
 [71.99258, -15.0293,Arnor,"<b>Bree</b>"],
 [71.99258, -12.04102,Arnor,"<b>Staddle</b>"],
 [72.65959, -12.12891,Arnor,"<b>Combe</b>"],
-[73.2267, -11.42578,Arnor,"<b>Archet</b>"]]
+[73.2267, -11.42578,Arnor,"<b>Archet</b>"],
+[72.10094, -29.00391,Shire,"<b>Hobbiton</b>"],
+[71.60828, -30.32227,Shire,"<b>Tuckburrow</b>"],
+[71.58053, -24.87305,Shire,"<b>Bucklebury</b>"],
+[71.93816, -33.31055,Shire,"<b>Michel Delving</b>"]]
 
 var markers_Lothlorien = []
 
@@ -508,4 +512,19 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(69.16256, 11.60156),
   	new L.LatLng(68.52823, 10.19531)
 
-  	],{fillOpacity:.4,color:'#2c3695'});
+  	],{fillOpacity:.4,color:'#2c3695'})
+
+  var ShirePoly = L.polygon([
+  	new L. LatLng(73.04824, -35.06836),
+  	new L. LatLng(71.93816, -35.15625),//west
+  	new L. LatLng(71.13099, -33.48633),
+  	new L. LatLng(70.87349, -31.20117),//south
+  	new L. LatLng(70.931, -25.48828),
+  	new L. LatLng(71.30079, -24.43359),
+  	new L. LatLng(71.41318, -23.90625),//east
+  	new L. LatLng(72.39571, -24.3457),
+  	new L. LatLng(73.04824, -26.89453),
+  	new L. LatLng(73.80032, -30.05859),//north
+  	new L. LatLng(73.67726, -33.48633)
+
+  	],{fillOpacity:.4,color:'#b727e2'});
