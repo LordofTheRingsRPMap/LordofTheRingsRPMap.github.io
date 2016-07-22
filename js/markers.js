@@ -482,16 +482,30 @@ var UmbarPoly = L.polygon([
   var BreelandPoly = L.polygon([
   	new L.LatLng(71.49704, -15.11719),
   	new L.LatLng(71.46912, -10.63477),
-  	new L.LatLng(71.77394, -6.85547),
-  	new L.LatLng(72.15489, -6.50391),
+  	new L.LatLng(71.77394, -6.85547),//south
+  	new L.LatLng(72.15489, -6.50391),//east
   	new L.LatLng(72.63337, -6.85547),
   	new L.LatLng(73.20132, -8.61328),
   	new L.LatLng(73.62779, -10.45898),
-  	new L.LatLng(73.89811, -12.2168),
+  	new L.LatLng(73.89811, -12.2168),//north
   	new L.LatLng(73.87372, -17.66602),
   	new L.LatLng(73.42842, -19.77539),
-  	new L.LatLng(72.738, -19.95117),
+  	new L.LatLng(72.738, -19.95117),//west
   	new L.LatLng(71.93816, -18.45703),
   	new L.LatLng(71.52491, -16.875)
+
+  	],{fillOpacity:.4,color:'#2c3695'})
+
+  var AnglePoly = L.polygon([
+  	new L.LatLng(67.77603, 6.5918),//south
+  	new L.LatLng(70.55418, 7.82227),
+  	new L.LatLng(70.931, 9.58008),
+  	new L.LatLng(70.931, 13.53516),
+  	new L.LatLng(70.61261, 15.73242),
+  	new L.LatLng(70.37785, 15.9082),
+  	new L.LatLng(70.22974, 15.29297),
+  	new L.LatLng(69.77895, 14.0625),
+  	new L.LatLng(69.16256, 11.60156),
+  	new L.LatLng(68.52823, 10.19531)
 
   	],{fillOpacity:.4,color:'#2c3695'});

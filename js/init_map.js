@@ -25,8 +25,8 @@
 			}*/
 
 		/*};
-		map.on('click', onMapClick);*/
-		
+		map.on('click', onMapClick);
+		*/
 
 		//loop through Polygons and display
 		
@@ -34,7 +34,8 @@
 			GondorPoly, RohanPoly, MordorPoly, NorthernMistyMountainsPoly,
 			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
 			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,
-			HaradwaithPoly, DunlandPoly, BreelandPoly]).addTo(map);
+			HaradwaithPoly, DunlandPoly, BreelandPoly, AnglePoly
+			]).addTo(map);
 
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer
 		var arrGondorMarkers = []
