@@ -21,12 +21,12 @@ var Hanistor = L.icon({iconUrl: 'img/marker/Hanistor.png',iconSize: [21,21]})
 var Arnor = L.icon({iconUrl: 'img/marker/Arnor.png',iconSize: [21, 21]})
 var Shire = L.icon({iconUrl: 'img/marker/Shire.png',iconSize: [21, 21]})
 
-var Lothlorien = L.icon({iconUrl: 'img/marker/Elves.png',iconSize: [21, 21]})
-var Rivendell= L.icon({iconUrl: 'img/marker/HighElves.png',iconSize: [21, 21]})
+var Elves = L.icon({iconUrl: 'img/marker/Elves.png',iconSize: [21, 21]})
 
 var Dale = L.icon({iconUrl: 'img/marker/Dale.png',iconSize: [21, 21]})
+var Beorning = L.icon({iconUrl: 'img/marker/Beorning.png',iconSize: [21, 21]})
 
-var Lindon = L.icon({iconUrl: 'img/marker/Elves.png',iconSize: [21, 21]})
+var HighElves = L.icon({iconUrl: 'img/marker/HighElves.png',iconSize: [21, 21]})
 
 var WoodElves = L.icon({iconUrl: 'img/marker/WoodElves.png',iconSize: [21, 21]})
 var Radagast = L.icon({iconUrl: 'img/marker/Istari.png',iconSize: [21, 21]})
@@ -100,9 +100,15 @@ var markers_Breeland = [
 [71.58053, -24.87305,Shire,"<b>Bucklebury</b>"],
 [71.93816, -33.31055,Shire,"<b>Michel Delving</b>"]]
 
-var markers_Lothlorien = []
+var markers_Lothlorien = [
+[61.22796, 37.26563,Elves,"<b>Caras Galadhon"],
+[62.47172, 29.61914,Elves,"<b>Vinyamar</b>"],
+[63.74363, 33.04688,Elves,"<b>Cerin Amroth"]]
 
-var markers_Wilderlands = []
+var markers_Wilderlands = [
+[72.8938, 52.29492,Beorning,"<b>Carrock</B>"],
+[73.35305, 84.19922,Dale,"<b>Esgaroth (Lake-Town)</b>"],
+[74.72962, 83.84766,Dale,"<b>Dale</b>"]]
 
 var markers_Lindon = []
 
@@ -527,4 +533,38 @@ var UmbarPoly = L.polygon([
   	new L. LatLng(73.80032, -30.05859),//north
   	new L. LatLng(73.67726, -33.48633)
 
-  	],{fillOpacity:.4,color:'#b727e2'});
+  	],{fillOpacity:.4,color:'#b727e2'})
+
+  var LothlorienPoly = L.polygon([
+  	new L.LatLng(62.18601, 26.71875),
+  	new L.LatLng(61.56457, 27.59766),
+  	new L.LatLng(61.05829, 31.37695),
+  	new L.LatLng(60.50053, 32.69531),
+  	new L.LatLng(60.41385, 36.29883),
+  	new L.LatLng(59.97701, 38.58398),
+  	new L.LatLng(60.45722, 39.375),
+  	new L.LatLng(62.75473, 39.81445),
+  	new L.LatLng(63.54855, 38.84766),
+  	new L.LatLng(64.73664, 33.66211),
+  	new L.LatLng(64.47279, 30.58594),
+  	new L.LatLng(64.24459, 29.26758),
+  	new L.LatLng(62.83509, 27.07031)
+
+  	],{fillOpacity:.4,color:'#FF69B4'})
+
+  var DalePoly = L.polygon([
+  	new L.LatLng(71.91089, 84.55078),
+  	new L.LatLng(72.47528, 83.14453),
+  	new L.LatLng(73.40334, 82.35352),
+  	new L.LatLng(74.23588, 82.17773),
+  	new L.LatLng(75.00494, 83.14453),
+  	new L.LatLng(75.14078, 84.11133),
+  	new L.LatLng(75.34228, 88.76953),
+  	new L.LatLng(74.89082, 94.83398),
+  	new L.LatLng(74.56674, 96.32813),
+  	new L.LatLng(73.84929, 96.5918),
+  	new L.LatLng(73.50346, 94.92188),
+  	new L.LatLng(72.52813, 92.19727),
+  	new L.LatLng(72.1818, 89.12109)
+
+  	],{fillOpacity:.4,color:'#3BB9FF'});
