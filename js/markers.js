@@ -444,4 +444,33 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(-11.86735, 72.24609),
   	new L.LatLng(-9.36235, 76.9043)
 
-  	],{fillOpacity:.4,color:'#ca7823'});
+  	],{fillOpacity:.4,color:'#ca7823'})
+
+  var DunlandPoly = L.polygon([
+	new L.LatLng(49.72448, -4.21875),
+	new L.LatLng(48.16609, 1.66992),
+	new L.LatLng(49.09545, 4.04297),//south
+	new L.LatLng(49.15297, 9.49219),
+	new L.LatLng(50.1769, 11.33789),//east
+	new L.LatLng(51.01375, 12.56836),
+	new L.LatLng(51.72703, 12.48047),
+	new L.LatLng(52.21434, 11.42578),
+	new L.LatLng(53.90434, 7.73437),
+	new L.LatLng(56.17002, 8.4375),
+	new L.LatLng(57.08852, 5.36133),
+	new L.LatLng(58.95001, 10.63477),
+	new L.LatLng(61.56457, 15.29297),
+	new L.LatLng(62.71446, 15.0293),
+	new L.LatLng(63.23363, 9.22852),
+	new L.LatLng(62.79493, 6.41602),
+	new L.LatLng(62.79493, 3.7793),
+	new L.LatLng(63.27318, 3.51563),
+	new L.LatLng(63.78249, 0.17578),//north
+	new L.LatLng(63.66576, -1.40625),
+	new L.LatLng(63.31268, -2.02148),
+	new L.LatLng(62.83509, -2.02148),
+	new L.LatLng(61.56457, -0.9668),
+	new L.LatLng(57.51582, -1.49414),
+	new L.LatLng(51.94426, -4.6582)//west
+
+  	],{fillOpacity:.4,color:'#a0561f'});

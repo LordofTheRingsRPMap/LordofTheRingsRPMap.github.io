@@ -30,7 +30,10 @@
 
 		//loop through Polygons and display
 		
-		var PolyLayer = L.layerGroup([GondorPoly, RohanPoly, MordorPoly, NorthernMistyMountainsPoly, NorthernBlueMountainsPoly, SouthernBlueMountainsPoly, IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly, HaradwaithPoly]).addTo(map);
+		var PolyLayer = L.layerGroup([
+			GondorPoly, RohanPoly, MordorPoly, NorthernMistyMountainsPoly,
+			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly, IronHillsPoly,
+			MoriaPoly, UmbarPoly, HarondorPoly, HaradwaithPoly, DunlandPoly]).addTo(map);
 
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer
 		var arrGondorMarkers = []
