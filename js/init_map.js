@@ -9,8 +9,8 @@
         }).addTo(map);
 		  
 		/*This function gives you Lat Long of what you click on */
-		/*
-		function onMapClick(e) {
+		
+		/*function onMapClick(e) {
 			alert("You clicked the map at " + e.latlng);
 
 			/*if(confirm("ADD MARKER HERE=?")){
@@ -35,7 +35,8 @@
 			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
 			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,
 			HaradwaithPoly, DunlandPoly, BreelandPoly, AnglePoly, ShirePoly,
-			LothlorienPoly, DalePoly, LindonPoly]).addTo(map);
+			LothlorienPoly, DalePoly, LindonPoly, WoodlandRealmPoly
+			]).addTo(map);
 
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer
 		var arrGondorMarkers = []

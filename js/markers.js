@@ -103,10 +103,10 @@ var markers_Breeland = [
 var markers_Lothlorien = [
 [61.22796, 37.26563,Elves,"<b>Caras Galadhon"],
 [62.47172, 29.61914,Elves,"<b>Vinyamar</b>"],
-[63.74363, 33.04688,Elves,"<b>Cerin Amroth"]]
+[63.74363, 33.04688,Elves,"<b>Celebrant</b>"]]
 
 var markers_Wilderlands = [
-[72.8938, 52.29492,Beorning,"<b>Carrock</B>"],
+[72.8938, 52.29492,Beorning,"<b>Carrock</b>"],
 [73.35305, 84.19922,Dale,"<b>Esgaroth (Lake-Town)</b>"],
 [74.72962, 83.84766,Dale,"<b>Dale</b>"]]
 
@@ -116,7 +116,12 @@ var markers_Lindon = [
 [72.15489, -52.4707,HighElves,"<b>MithLond (Grey Haven)</b>"],
 [72.23551, 21.44531,HighElves,"<b>Rivendell</b>"]]
 
-var markers_Woodlands = []
+var markers_Woodlands = [
+[74.49641, 75.84961,WoodElves,"<b>Halls of Thranduil</b>"],
+[74.25974, 80.41992,WoodElves,"<b>Celebannon</b>"],
+[71.49704, 73.38867,WoodElves,"<b>Emyn Duir</b>"],
+[76.51682, 63.28125,WoodElves,"<b>Athrad Laegrim</b>"],
+[67.33986, 55.37109,Radagast,"<b>Rhosgobel</b>"]]
 
 //Polygons
 
@@ -628,4 +633,20 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(71.41318, -52.29492),
   	new L.LatLng(72.23551, -50.00977)
 
-  	],{fillOpacity:.4,color:'#5EFB6E'});
+  	],{fillOpacity:.4,color:'#5EFB6E'})
+
+  var WoodlandRealmPoly = L.polygon([
+  	new L.LatLng(72.23551, 82.70508),
+  	new L.LatLng(71.69129, 81.73828),
+  	new L.LatLng(71.66366, 79.98047),
+  	new L.LatLng(71.35707, 74.26758),
+  	new L.LatLng(71.74643, 57.48047),
+  	new L.LatLng(72.23551, 56.16211),
+  	new L.LatLng(76.185, 53.61328),
+  	new L.LatLng(77.33181, 55.2832),
+  	new L.LatLng(77.82332, 58.79883),
+  	new L.LatLng(77.52312, 71.36719),
+  	new L.LatLng(75.65043, 79.98047),
+  	new L.LatLng(74.28356, 82.00195)
+
+  	],{fillOpacity:.4,color:'#254117'});
