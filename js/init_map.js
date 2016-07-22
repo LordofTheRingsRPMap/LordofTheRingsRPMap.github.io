@@ -29,7 +29,27 @@
 		*/
 
 		//loop through Polygons and display
-		
+		GondorPoly.bindPopup("<b>Gondor</b>")
+		RohanPoly.bindPopup("<b>Rohan</b>")
+		MordorPoly.bindPopup("<b>Mordor</b>")
+		NorthernMistyMountainsPoly.bindPopup("<b>Northern Misty Mountains</b>")
+		NorthernBlueMountainsPoly.bindPopup("<b>Northern Blue Mountains</b>")
+		SouthernBlueMountainsPoly.bindPopup("<b>Southern Blue Mountains</b>")
+		IronHillsPoly.bindPopup("<b>The Iron Hills</b>")
+		MoriaPoly.bindPopup("<b>Moria</b>")
+		UmbarPoly.bindPopup("<b>Umbar</b>")
+		HarondorPoly.bindPopup("<b>Harondor</b>")
+		HaradwaithPoly.bindPopup("<b>Haradwaith</b>")
+		DunlandPoly.bindPopup("<b>Dunland</b>")
+		BreelandPoly.bindPopup("<b>Breeland</b>")
+		AnglePoly.bindPopup("<b>The Angle</b>")
+		ShirePoly.bindPopup("<b>The Shire</b>")
+		LothlorienPoly.bindPopup("<b>Lothlórien</b>")
+		DalePoly.bindPopup("<b>Dale</b>")
+		LindonPoly.bindPopup("<b>Lindon</b>")
+		WoodlandRealmPoly.bindPopup("<b>Woodland Realm</b>")
+
+
 		var PolyLayer = L.layerGroup([
 			GondorPoly, RohanPoly, MordorPoly, NorthernMistyMountainsPoly,
 			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
@@ -327,6 +347,16 @@
 			else
 			{
 				map.addLayer(markerLayerWoodlands);
+			}
+		}
+
+		function togglePolyLayer(){
+			if (map.hasLayer(PolyLayer)) {
+				map.removeLayer(PolyLayer);
+			}
+			else
+			{
+				map.addLayer(PolyLayer);
 			}
 		}					
 				
