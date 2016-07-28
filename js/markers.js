@@ -17,6 +17,7 @@ var MoriaDwarves = L.icon({iconUrl: 'img/marker/MoriaDwarves.png',iconSize: [21,
 var DarkMen = L.icon({iconUrl: 'img/marker/DarkMen0.png',iconSize: [21, 21]})
 var Umbar = L.icon({iconUrl: 'img/marker/Umbar.png',iconSize: [21, 21]})
 var Hanistor = L.icon({iconUrl: 'img/marker/Hanistor.png',iconSize: [21,21]})
+var Dorwinion = L.icon({iconUrl: 'img/marker/Dorwinion.png',iconSize: [21,21]})
 
 var Arnor = L.icon({iconUrl: 'img/marker/Arnor.png',iconSize: [21, 21]})
 var Shire = L.icon({iconUrl: 'img/marker/Shire.png',iconSize: [21, 21]})
@@ -88,7 +89,8 @@ var markers_DarkMen = [
 [-39.63954, -9.84375,Umbar,"<b>Erelond</b>"],
 [-15.36895, 64.16016,Hanistor,"<b>Gobel Ancalimon</b>"],
 [-0.87887, 61.25977,Hanistor,"<b>Amon Eithel</b>"],
-[-14.09396, 84.55078,DarkMen,"<b>amrûn</b>"]]
+[-14.09396, 84.55078,DarkMen,"<b>amrûn</b>"],
+[61.77312, 111.88477,Dorwinion,"<b>Uldonavan</b>"]]
 
 var markers_Breeland = [
 [71.99258, -15.0293,Arnor,"<b>Bree</b>"],
@@ -497,6 +499,25 @@ var UmbarPoly = L.polygon([
 	new L.LatLng(51.94426, -4.6582)//west
 
   	],{fillOpacity:.4,color:'#a0561f'})
+
+  var DorwinionPoly = L.polygon([
+  	new L.LatLng(59.57885, 115.57617),//south
+  	new L.LatLng(59.7564, 116.80664),
+  	new L.LatLng(61.05829, 116.98242),
+  	new L.LatLng(61.43877, 117.86133),
+  	new L.LatLng(61.18562, 120.84961),
+  	new L.LatLng(62.99516, 123.13477),//east
+  	new L.LatLng(63.43086, 121.9043),
+  	new L.LatLng(63.93737, 120.14648),
+  	new L.LatLng(64.09141, 113.11523),//north
+  	new L.LatLng(63.35213, 109.86328),
+  	new L.LatLng(62.55286, 109.42383),//west
+  	new L.LatLng(62.02153, 109.6875),
+  	new L.LatLng(61.18562, 113.20313),
+  	new L.LatLng(60.7162, 114.25781),
+  	new L.LatLng(60.10867, 114.16992)
+
+  	],{fillOpacity:.4,color:'#722f37'})
 
   var BreelandPoly = L.polygon([
   	new L.LatLng(71.49704, -15.11719),
