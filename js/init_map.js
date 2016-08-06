@@ -10,7 +10,7 @@
 		  
 		/*This function gives you Lat Long of what you click on */
 		
-		function onMapClick(e) {
+		/*function onMapClick(e) {
 			alert("You clicked the map at " + e.latlng);
 
 			/*if(confirm("ADD MARKER HERE=?")){
@@ -24,14 +24,15 @@
 	
 			}*/
 
-		};
+		/*};
 		map.on('click', onMapClick);
-		
+		*/
 
 		//loop through Polygons and display
 		GondorPoly.bindPopup("<b>Gondor</b>")
 		RohanPoly.bindPopup("<b>Rohan</b>")
 		MordorPoly.bindPopup("<b>Mordor</b>")
+		DolGuldurPoly.bindPopup("<b>Dol Guldur</b>")
 		NorthernMistyMountainsPoly.bindPopup("<b>Northern Misty Mountains</b>")
 		NorthernBlueMountainsPoly.bindPopup("<b>Northern Blue Mountains</b>")
 		SouthernBlueMountainsPoly.bindPopup("<b>Southern Blue Mountains</b>")
@@ -52,7 +53,7 @@
 
 
 		var PolyLayer = L.layerGroup([
-			GondorPoly, RohanPoly, MordorPoly, NorthernMistyMountainsPoly,
+			GondorPoly, RohanPoly, MordorPoly, DolGuldurPoly, NorthernMistyMountainsPoly,
 			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
 			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,HaradwaithPoly, 
 			DunlandPoly, DorwinionPoly, BreelandPoly, AnglePoly, ShirePoly,

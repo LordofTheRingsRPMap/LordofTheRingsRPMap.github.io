@@ -276,6 +276,19 @@ var MordorPoly = L.polygon([
 
 	],{fillOpacity:.4,color:"#c01a11"})
 
+var DolGuldurPoly = L.polygon([
+	new L.LatLng(62.59334, 54.05273),
+	new L.LatLng(63.89873, 55.72266),
+	new L.LatLng(64.28276, 57.12891),
+	new L.LatLng(64.43489, 60.73242),
+	new L.LatLng(63.97596, 62.31445),
+	new L.LatLng(63.07487, 62.8418),
+	new L.LatLng(61.52269, 62.49023),
+	new L.LatLng(60.7162, 60.99609),
+	new L.LatLng(60.97311, 55.98633)
+
+	],{fillOpacity:.4,color:'#9E0303'})
+
 var NorthernMistyMountainsPoly = L.polygon([
 	new L.LatLng(75.88809, 25.22461),
 	new L.LatLng(76.47577, 28.03711),
