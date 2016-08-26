@@ -89,7 +89,7 @@ var markers_DarkMen = [
 [-39.63954, -9.84375,Umbar,"<b>Erelond</b>"],
 [-15.36895, 64.16016,Hanistor,"<b>Gobel Ancalimon</b>"],
 [-0.87887, 61.25977,Hanistor,"<b>Amon Eithel</b>"],
-[-14.09396, 84.55078,DarkMen,"<b>amrûn</b>"],
+[-14.09396, 84.55078,DarkMen,"<b>Amrûn</b>"],
 [61.77312, 111.88477,Dorwinion,"<b>Uldonavan</b>"]]
 
 var markers_Breeland = [
@@ -483,6 +483,28 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(-9.36235, 76.9043)
 
   	],{fillOpacity:.4,color:'#ca7823'})
+
+  var LurmsakunPoly = L.polygon([
+  	new L.LatLng(-26.98083, 103.0957),
+  	new L.LatLng(-26.27371, 106.96289),
+  	new L.LatLng(-23.72501, 112.06055),
+  	new L.LatLng(-22.26876, 111.26953),
+  	new L.LatLng(-14.0087, 111.70898),
+  	new L.LatLng(-12.98315, 112.58789),
+  	new L.LatLng(-12.72608, 113.73047),
+  	new L.LatLng(-12.29707, 119.17969),
+  	new L.LatLng(-14.26438, 123.75),
+  	new L.LatLng(-18.14585, 129.11133),
+  	new L.LatLng(-20.30342, 129.81445),
+  	new L.LatLng(-24.52713, 130.69336),
+  	new L.LatLng(-26.90248, 128.67188),
+  	new L.LatLng(-30.52441, 122.51953),
+  	new L.LatLng(-32.24997, 118.30078),
+  	new L.LatLng(-31.42866, 110.56641),
+  	new L.LatLng(-29.45873, 103.79883),
+  	new L.LatLng(-28.38174, 102.83203)
+
+  	],{fillOpacity:.4,color:'#c21919'})
 
   var DunlandPoly = L.polygon([
 	new L.LatLng(49.72448, -4.21875),

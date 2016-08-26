@@ -41,6 +41,7 @@
 		UmbarPoly.bindPopup("<b>Umbar</b>")
 		HarondorPoly.bindPopup("<b>Harondor</b>")
 		HaradwaithPoly.bindPopup("<b>Haradwaith</b>")
+		LurmsakunPoly.bindPopup("<b>Lûrmsakun</b>")
 		DunlandPoly.bindPopup("<b>Dunland</b>")
 		DorwinionPoly.bindPopup("<b>Dorwinion</b>")
 		BreelandPoly.bindPopup("<b>Breeland</b>")
@@ -54,9 +55,9 @@
 
 		var PolyLayer = L.layerGroup([
 			GondorPoly, RohanPoly, MordorPoly, DolGuldurPoly, NorthernMistyMountainsPoly,
-			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
-			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,HaradwaithPoly, 
-			DunlandPoly, DorwinionPoly, BreelandPoly, AnglePoly, ShirePoly,
+			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly, IronHillsPoly, 
+			MoriaPoly, UmbarPoly, HarondorPoly,HaradwaithPoly, LurmsakunPoly, DunlandPoly, 
+			DorwinionPoly, BreelandPoly, AnglePoly, ShirePoly,
 			LothlorienPoly, DalePoly, LindonPoly, WoodlandRealmPoly
 			]).addTo(map);
 
