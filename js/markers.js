@@ -504,7 +504,7 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(-29.45873, 103.79883),
   	new L.LatLng(-28.38174, 102.83203)
 
-  	],{fillOpacity:.4,color:'#c21919'})
+  	],{fillOpacity:.4,color:'#808080'})
 
   var DunlandPoly = L.polygon([
 	new L.LatLng(49.72448, -4.21875),
