@@ -110,7 +110,8 @@ var markers_Lothlorien = [
 var markers_Wilderlands = [
 [72.8938, 52.29492,Beorning,"<b>Carrock</b>"],
 [73.35305, 84.19922,Dale,"<b>Esgaroth (Lake-Town)</b>"],
-[74.72962, 83.84766,Dale,"<b>Dale</b>"]]
+[74.72962, 83.84766,Dale,"<b>Dale</b>"],
+[70.19999, 91.75781,Dale,"<b>Burh Kaupis</b>"]]
 
 var markers_Lindon = [
 [72.65959, -72.42187,HighElves,"<b>Forlond</b>"],
@@ -626,9 +627,18 @@ var UmbarPoly = L.polygon([
   	new L.LatLng(74.89082, 94.83398),
   	new L.LatLng(74.56674, 96.32813),
   	new L.LatLng(73.84929, 96.5918),
-  	new L.LatLng(73.50346, 94.92188),
-  	new L.LatLng(72.52813, 92.19727),
-  	new L.LatLng(72.1818, 89.12109)
+  	new L.LatLng(73.5284, 97.11914),
+  	new L.LatLng(73.37821, 98.08594),
+  	new L.LatLng(72.94543, 97.82227),
+  	new L.LatLng(72.76406, 97.29492),
+  	new L.LatLng(71.71888, 98.26172),
+  	new L.LatLng(71.24436, 98.96484),
+  	new L.LatLng(70.19999, 98.52539),
+  	new L.LatLng(69.74855, 95.97656),
+  	new L.LatLng(69.59589, 93.69141),
+  	new L.LatLng(69.9303, 92.72461),
+  	new L.LatLng(70.14036, 90.70313),
+  	new L.LatLng(70.84467, 89.82422)
 
   	],{fillOpacity:.4,color:'#3BB9FF'})
 
