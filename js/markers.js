@@ -55,7 +55,8 @@ var markers_Rohan = [
 [50.34546, 21.79688,Rohan,"<b>Stonedeans</b>"],
 [48.5166, 17.22656,Rohan,"<b>Kingstead</b>"],
 [47.57653, 13.79883,Rohan,"<b>Helm's Deep</b>"],
-[47.04018, 6.32813,Rohan,"<b>West-march</b>"]]
+[47.04018, 6.32813,Rohan,"<b>West-march</b>"],
+[69.16256, 90.17578,Rohan,"<b>Rhovanost</b>"]]
 
 var markers_DarkForces = [
 [78.0983, 26.19141,DarkForces,"<b>Mount Gundabad</b>"],
