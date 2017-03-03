@@ -271,6 +271,34 @@ var RohanPoly = L.polygon([
 
 	],{fillOpacity:.4,color:'#4ca20b'})
 
+var RidderwoodPoly = L.polygon([
+
+	new L.LatLng(53.38333, 58.62305), //SW
+
+	new L.LatLng(54.57206, 54.66797),
+	new L.LatLng(55.37911, 54.49219),
+	new L.LatLng(55.9738, 56.07422),
+	new L.LatLng(56.55948, 63.98438),
+	new L.LatLng(57.563, 71.36719),
+	new L.LatLng(58.12432, 75.58594),
+	new L.LatLng(60.02095, 81.38672),
+	new L.LatLng(61.64816, 84.28711),
+	new L.LatLng(63.31268, 87.01172),
+	new L.LatLng(67.20403, 88.50586),
+
+	new L.LatLng(69.16256, 90.17578), //N Rhovanost
+
+	new L.LatLng(67.90862, 93.69141),
+	new L.LatLng(66.30221, 95.00977),
+	new L.LatLng(61.81466, 96.5918),
+	new L.LatLng(58.26329, 96.06445),
+	new L.LatLng(56.51102, 94.13086),
+	new L.LatLng(54.05939, 86.04492),
+	new L.LatLng(50.90303, 66.62109),
+	new L.LatLng(52.26816, 59.23828)
+
+	],{fillOpacity:.4,color:'#aeff59'})
+
 var MordorPoly = L.polygon([
 	new L.LatLng(44.15068, 75.32227),
 	new L.LatLng(44.02442, 76.11328),

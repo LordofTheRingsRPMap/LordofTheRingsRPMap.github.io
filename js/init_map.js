@@ -25,12 +25,13 @@
 			}*/
 
 		/*};
-		map.on('click', onMapClick);
-		*/
+		map.on('click', onMapClick);*/
+		
 
 		//loop through Polygons and display
 		GondorPoly.bindPopup("<b>Gondor</b>")
 		RohanPoly.bindPopup("<b>Rohan</b>")
+		RidderwoodPoly.bindPopup("<b>Ridderwood</b>")
 		MordorPoly.bindPopup("<b>Mordor</b>")
 		DolGuldurPoly.bindPopup("<b>Dol Guldur</b>")
 		NorthernMistyMountainsPoly.bindPopup("<b>Northern Misty Mountains</b>")
@@ -54,10 +55,10 @@
 
 
 		var PolyLayer = L.layerGroup([
-			GondorPoly, RohanPoly, MordorPoly, DolGuldurPoly, NorthernMistyMountainsPoly,
-			NorthernBlueMountainsPoly, SouthernBlueMountainsPoly, IronHillsPoly, 
-			MoriaPoly, UmbarPoly, HarondorPoly,HaradwaithPoly, LurmsakunPoly, DunlandPoly, 
-			DorwinionPoly, BreelandPoly, AnglePoly, ShirePoly,
+			GondorPoly, RohanPoly, RidderwoodPoly, MordorPoly, DolGuldurPoly,
+			NorthernMistyMountainsPoly, NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
+			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,HaradwaithPoly, LurmsakunPoly,
+			DunlandPoly, DorwinionPoly, BreelandPoly, AnglePoly, ShirePoly,
 			LothlorienPoly, DalePoly, LindonPoly, WoodlandRealmPoly
 			]).addTo(map);
 
