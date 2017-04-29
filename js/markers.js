@@ -73,7 +73,8 @@ var markers_DarkForces = [
 [65.47651, 20.6543,DarkForces,"<b>Khazad-Dûm<b/>"],
 [63.27318, 58.62305,Nazgul,"<b>Dol Guldur</b>"],
 [34.45222, 72.59766,Nazgul,"<b>Minas Morgul</b>"],
-[37.09024, 83.4082,DarkForces,"<b>Mount Doom</b>"]]
+[37.09024, 83.4082,DarkForces,"<b>Mount Doom</b>"],
+[72.738, 30.58594,DarkForces,"<b>Votar ro avhe Hnifer</b>"]]
 
 var markers_Dwarves = [
 [72.58083, -59.76562,BlueDwarves,"<b>Belegost</b>"],
