@@ -35,6 +35,7 @@
 		MordorPoly.bindPopup("<b>Mordor</b>")
 		DolGuldurPoly.bindPopup("<b>Dol Guldur</b>")
 		NorthernMistyMountainsPoly.bindPopup("<b>Northern Misty Mountains</b>")
+		GoblinPoly.bindPopup("<b>Goblin Town</b>")
 		NorthernBlueMountainsPoly.bindPopup("<b>Northern Blue Mountains</b>")
 		SouthernBlueMountainsPoly.bindPopup("<b>Southern Blue Mountains</b>")
 		IronHillsPoly.bindPopup("<b>The Iron Hills</b>")
@@ -56,10 +57,11 @@
 
 		var PolyLayer = L.layerGroup([
 			GondorPoly, RohanPoly, RidderwoodPoly, MordorPoly, DolGuldurPoly,
-			NorthernMistyMountainsPoly, NorthernBlueMountainsPoly, SouthernBlueMountainsPoly,
-			IronHillsPoly, MoriaPoly, UmbarPoly, HarondorPoly,HaradwaithPoly, LurmsakunPoly,
-			DunlandPoly, DorwinionPoly, BreelandPoly, AnglePoly, ShirePoly,
-			LothlorienPoly, DalePoly, LindonPoly, WoodlandRealmPoly
+			NorthernMistyMountainsPoly, GoblinPoly, NorthernBlueMountainsPoly,
+			SouthernBlueMountainsPoly, IronHillsPoly, MoriaPoly, UmbarPoly,
+			HarondorPoly,HaradwaithPoly, LurmsakunPoly, DunlandPoly, DorwinionPoly,
+			BreelandPoly, AnglePoly, ShirePoly, LothlorienPoly, DalePoly, LindonPoly,
+			WoodlandRealmPoly
 			]).addTo(map);
 
 		//Loop through the Gondor markers (declared on marker.js) array and add markers to layer

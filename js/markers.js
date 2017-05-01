@@ -370,6 +370,21 @@ var NorthernMistyMountainsPoly = L.polygon([
 
 	],{fillOpacity:.4,color:"#c01a11"})
 
+var GoblinPoly = L.polygon([
+	new L.LatLng(72.8938, 26.54297), 
+	new L.LatLng(72.65959, 26.2793), //W
+	new L.LatLng(72.50172, 26.45508),
+	new L.LatLng(72.52813, 27.33398), 
+	new L.LatLng(72.5545, 29.00391),
+	new L.LatLng(72.28907, 30.9375), //S
+	new L.LatLng(72.50172, 31.55273), //E
+	new L.LatLng(72.76406, 31.37695), 
+	new L.LatLng(72.99691, 29.70703),
+	new L.LatLng(73.15044, 28.82812), //N
+	new L.LatLng(72.94543, 27.24609)
+
+	],{fillOpacity:.4,color:"#c01a11"})
+
 var NorthernBlueMountainsPoly = L.polygon([
 	new L.LatLng(72.42227, -63.19336),
 	new L.LatLng(72.39571, -59.0625),
