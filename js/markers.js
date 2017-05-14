@@ -103,7 +103,8 @@ var markers_Breeland = [
 [72.10094, -29.00391,Shire,"<b>Hobbiton</b>"],
 [71.60828, -30.32227,Shire,"<b>Tuckburrow</b>"],
 [71.58053, -24.87305,Shire,"<b>Bucklebury</b>"],
-[71.93816, -33.31055,Shire,"<b>Michel Delving</b>"]]
+[71.93816, -33.31055,Shire,"<b>Michel Delving</b>"],
+[62.63377, -53.87695,Rohan]]
 
 var markers_Lothlorien = [
 [61.22796, 37.26563,Elves,"<b>Caras Galadhon"],
