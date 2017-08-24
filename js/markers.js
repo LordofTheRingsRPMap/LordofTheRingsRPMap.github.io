@@ -113,6 +113,7 @@ var markers_Lothlorien = [
 
 var markers_Wilderlands = [
 [72.8938, 52.29492,Beorning,"<b>Carrock</b>"],
+[71.46912, 52.20703,Dale,"<b>Carrogarth</b>"],
 [73.35305, 84.19922,Dale,"<b>Esgaroth (Lake-Town)</b>"],
 [74.72962, 83.84766,Dale,"<b>Dale</b>"],
 [70.19999, 91.75781,Dale,"<b>Burh Kaupis</b>"]]
