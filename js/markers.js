@@ -303,6 +303,25 @@ var RidderwoodPoly = L.polygon([
 
 	],{fillOpacity:.4,color:'#aeff59'})
 
+var AnduinPoly = L.polygon([
+
+	new L.LatLng(74.63675, 54.58008), //NE
+	new L.LatLng(74.11605, 49.6582), //NW
+
+	new L.LatLng(73.5533, 48.07617),
+	new L.LatLng(68.59249, 40.3418), //W
+	new L.LatLng(65.03506, 39.72656),
+
+	new L.LatLng(64.39694, 41.48438), //S 
+	new L.LatLng(64.54844, 47.46094),
+	new L.LatLng(65.14611, 49.74609), 
+	
+	new L.LatLng(68.20421, 53.52539),
+	new L.LatLng(70.9597, 54.93164), //E
+	new L.LatLng(72.68576, 55.63477) 
+
+	],{fillOpacity:.4,color:'#aeff59'})
+
 var MordorPoly = L.polygon([
 	new L.LatLng(44.15068, 75.32227),
 	new L.LatLng(44.02442, 76.11328),
