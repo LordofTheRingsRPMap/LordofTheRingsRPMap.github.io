@@ -603,9 +603,22 @@ var UmbarPoly = L.polygon([
 
   var DorwinionPoly = L.polygon([
   	new L.LatLng(59.57885, 115.57617),//south
-  	new L.LatLng(59.7564, 116.80664),
-  	new L.LatLng(61.05829, 116.98242),
-  	new L.LatLng(61.43877, 117.86133),
+
+
+  	new L.LatLng(58.12432, 115.40039),
+  	new L.LatLng(56.36525, 119.17969),
+  	new L.LatLng(55.47885, 118.82813),
+  	new L.LatLng(54.57206, 115.75195),
+  	new L.LatLng(53.33087, 114.60937),
+  	new L.LatLng(53.12041, 116.10352),
+  	new L.LatLng(53.06763, 120.76172),
+  	new L.LatLng(53.54031, 123.39844),
+  	new L.LatLng(54.87661, 126.12305),
+  	new L.LatLng(57.08852, 126.29883),
+  	new L.LatLng(58.90465, 124.80469),
+  	new L.LatLng(59.7564, 121.81641),
+  	new L.LatLng(60.80206, 121.9043),
+
   	new L.LatLng(61.18562, 120.84961),
   	new L.LatLng(62.99516, 123.13477),//east
   	new L.LatLng(63.43086, 121.9043),
