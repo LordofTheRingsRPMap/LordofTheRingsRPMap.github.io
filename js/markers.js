@@ -305,8 +305,11 @@ var RidderwoodPoly = L.polygon([
 
 var AnduinPoly = L.polygon([
 
-	new L.LatLng(74.63675, 54.58008), //NE
-	new L.LatLng(74.11605, 49.6582), //NW
+	new L.LatLng(76.185, 53.17383), //NE
+	new L.LatLng(76.49631, 50.53711), //NW
+	new L.LatLng(75.86665, 48.69141),
+	new L.LatLng(76.185, 44.73633),
+	new L.LatLng(75.9095, 44.29687),
 
 	new L.LatLng(73.5533, 48.07617),
 	new L.LatLng(70.11048, 43.1543), //W
