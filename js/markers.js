@@ -103,8 +103,7 @@ var markers_Breeland = [
 [72.10094, -29.00391,Shire,"<b>Hobbiton</b>"],
 [71.60828, -30.32227,Shire,"<b>Tuckburrow</b>"],
 [71.58053, -24.87305,Shire,"<b>Bucklebury</b>"],
-[71.93816, -33.31055,Shire,"<b>Michel Delving</b>"],
-[62.63377, -53.87695,Rohan]]
+[71.93816, -33.31055,Shire,"<b>Michel Delving</b>"]]
 
 var markers_Lothlorien = [
 [61.22796, 37.26563,Elves,"<b>Caras Galadhon"],
@@ -310,14 +309,16 @@ var AnduinPoly = L.polygon([
 	new L.LatLng(74.11605, 49.6582), //NW
 
 	new L.LatLng(73.5533, 48.07617),
-	new L.LatLng(68.59249, 40.3418), //W
-	new L.LatLng(65.03506, 39.72656),
+	new L.LatLng(70.11048, 43.1543), //W
 
-	new L.LatLng(64.39694, 41.48438), //S 
-	new L.LatLng(64.54844, 47.46094),
-	new L.LatLng(65.14611, 49.74609), 
+
+	new L.LatLng(69.03714, 44.82422),
+	new L.LatLng(68.65655, 46.8457),
+	new L.LatLng(68.1061, 50.71289),
+	new L.LatLng(68.00757, 52.64648),
 	
-	new L.LatLng(68.20421, 53.52539),
+	new L.LatLng(68.20421, 53.52539), //cutoff
+	new L.LatLng(68.97416, 54.75586),
 	new L.LatLng(70.9597, 54.93164), //E
 	new L.LatLng(72.68576, 55.63477) 
 
